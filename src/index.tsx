@@ -4,10 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {sum} from "./TS_JS_for_students/03/03";
+import {User} from "./TS_JS_for_students/06/06-callback";
 
 /*let a = sum (1,2)*/
 
-ReactDOM.render(<App />, document.getElementById('root')
+ReactDOM.render(<User />, document.getElementById('root')
 );
 
 
