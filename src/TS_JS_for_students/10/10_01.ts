@@ -30,3 +30,10 @@ export function moveUser(user: UserWithLapTopType, city: string) {
     }
     return copy
 }
+
+export function upgradeUserLaptop (u: UserWithLapTopType, model:string){
+    return {
+        ...u,
+        laptop: {...u.laptop, title: model}
+    }
+}
